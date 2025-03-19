@@ -1,0 +1,132 @@
+@import url("reset.css");
+
+.nav ol  li {
+   color: #860afa;
+}
+
+/* ==========================Ukraine================================= */
+.flag {
+   color: blue;
+}
+.yellow1 {
+   color: yellow;
+}
+.red {
+   color: red;
+}
+.yellow {
+   color: yellowgreen;
+}
+.blue {
+   color: blue;
+}
+
+ul li {
+   color: rgb(18, 156, 156);
+}
+
+ul li .bold{
+   color: rgb(113, 0, 219);
+}
+/* ===========================culture==================================== */
+
+.culture {
+   color: rgb(235, 135, 4);
+}
+
+.official {
+   color: rgb(3, 109, 74);
+}
+
+p a {
+   color: rgb(230, 21, 21);
+}
+
+[class*="fes"] {
+   color: rgb(92, 0, 57);
+}
+[class*="cri"] {
+   color: rgb(41, 98, 206);
+}
+
+.crime a {
+   color: yellow;
+}
+
+.jozeph {
+   color: cornflowerblue;
+}
+/* ==========================history===================================== */
+.historical > p { 
+   color: aqua;
+}
+.historical > p ~ p { 
+   color: rgb(17, 211, 66);
+}
+
+.historical a {
+   color: rgb(197, 186, 24);
+}
+p .blue {
+   color: blue;
+}
+/* ====================================kitchen============================== */
+.kitchen .ukkitchen {
+   color: burlywood;
+}
+.purple {
+   color: purple;
+}
+.kitchen p a {
+   color: brown;
+}
+.kitchen .soup{
+   color: rgb(182, 0, 0);
+}
+
+/* ==============================travel================================== */
+.travel .traveling  {
+   color: #038b5e;
+}
+.text   {
+   color: rgb(231, 21, 143);
+}
+.text  ul  li {
+   color: rgb(56, 11, 94);
+}
+.travel .text p {
+   color: yellowgreen;
+}
+.travel .color {
+   color: #EC5228;
+}
+/* ==============================footer=================================== */
+footer * {
+   color: #860afa;
+}
+.top a {
+   color: #038b5e;
+}
+/* ==============================lists==================================== */
+ul > li {
+   color: #EC5228;
+}
+ul  li ~ li  {
+   color: #0ca02c;
+}
+ul ul > li  {
+   color: #6d0ec5;
+}
+ul ul > li ~ li  {
+   color: #915406;
+}
+ul ul span  {
+   color: #a0f0fc;
+}
+ul ul ol > li {
+   color: #4597f7;
+}
+ul ul ol > li ~ li {
+   color: #5d5d5d;
+}
+/* ======================================================================= */

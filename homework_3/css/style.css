@@ -121,12 +121,15 @@ ul ul > li ~ li  {
    color: #915406;
 }
 ul ul span  {
-   color: #a0f0fc;
+   color: #000000;
 }
 ul ul ol > li {
    color: #4597f7;
 }
 ul ul ol > li ~ li {
    color: #5d5d5d;
+}
+ul > li > ul > li > span {
+   color: #a0f0fc;
 }
 /* ======================================================================= */

@@ -1,0 +1,123 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("https://fonts.googleapis.com/css?family=Tektur:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500&display=swap");
+/* ======================================================================= */
+.image, .picture {
+   text-align: center;
+}
+.text {
+   font-family: "Playfair Display", serif;
+   font-size: 18px;
+   line-height: 2;
+   text-transform: uppercase;
+   color: #015c3d;
+   text-align: center;
+   text-shadow: #015c3d 2px 1px 3px;
+   text-decoration: underline;
+   text-decoration-color: rgb(113, 0, 226);
+}
+.text > p ~ p {
+   font-family:"Callifornia Signature";
+   text-align: right;
+   text-transform: lowercase;
+   letter-spacing: 0.5px;
+   word-spacing: 2px;
+   text-decoration-color: #015c3d;
+   line-height: 1.2;
+   font-size: 25px;
+   color: red;
+}
+.blue {
+   font-family:"Tektur";
+   font-size: 21px;
+   text-transform: capitalize;
+   line-height: 1.5;
+   text-align: justify;
+   letter-spacing: 0.1px;
+   color: blue;
+   text-shadow: #011559 1px -3px 5px;
+   font-style: italic;
+   font-weight: 700;
+   text-decoration: line-through;
+   text-decoration-color: #be3d01;
+}
+/* ======================================================================= */ 
+.greenyello{
+   font-family:"Callifornia Signature";
+   font-size: 28px;
+   letter-spacing: 0.2px;
+   color: greenyellow;
+   font-style: oblique;
+   text-decoration: dotted;
+   text-align: left;
+   text-shadow: 2px 2px 1px #000;
+}
+/* ====================================================================== */
+.sultan { 
+   text-align: right;
+}
+.link {
+   color: darkorange;
+}
+.blue-flag .link {
+   color: rgb(233, 51, 127);
+}
+.yellow-flag{
+   color: yellow;
+}
+.blue-flag{
+   color: #224dda;
+}
+.letter {
+   font-size: 19px;
+   letter-spacing: 0.2px;
+   line-height: 1;
+   text-transform: lowercase;
+   text-decoration: overline;
+   text-decoration-color: #be3d01;
+}
+.letter mark {
+   color: #06f51a;
+}
+/* ======================================================================= */
+.Maecenas {
+   font-family: Poppins;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.5;
+   text-align: left;
+}
+h1 {
+   font-size: 20px;
+   font-weight: 500;
+   text-align: center;
+   text-shadow: 2px 2px 1px #598;
+   }
+.Maecenas-elementum {
+   color: #015c3d;
+   text-decoration: underline;
+}
+.Mauris {
+   color: #6d2727;
+   text-decoration: line-through;
+}
+/* ======================================================================= */
+.contacts > a {
+  color: #011559;
+}
+.contacts > a ~ a {
+  color: #015e15;
+}
+.contacts > a ~ a + a {
+  color: #13dbdb;
+}
+/* ======================================================================= */
+.top {
+   color: #224dda;
+   text-decoration: underline;
+}
+
+.greenyellow {
+   color: rgb(68, 107, 9);
+}

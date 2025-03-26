@@ -1,0 +1,21 @@
+@font-face {
+   font-family:"Callifornia Signature";
+   src: url("../fonts/Callifornia\ Signature.woff2") format("woff2");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family:"Circular";
+   src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family:"CircularStd";
+   src: url("../fonts/CircularStd-Book.woff2") format("woff2");
+   font-weight: 450;
+   font-style: normal;
+   font-display: swap;
+}

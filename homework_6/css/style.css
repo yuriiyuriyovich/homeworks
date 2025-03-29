@@ -1,0 +1,280 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Gilroy", sans-serif;
+	background-color: #333;
+	color: #fff;
+	/*
+	background-image: url("../img/repeat.jpg");
+	background-repeat: repeat;
+	*/
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 777px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page {
+	padding: 30px;
+}
+
+.header  a {
+	display: block;
+	color: #52f108;
+	font-size: 20px;
+	padding: 25px 0 0 25px;
+	text-decoration: underline;
+	text-decoration-color: #057BC8;
+}
+/* ======================================================== */
+/* ----------- CSS-властивості оформлення блоків ---------- */
+/* ======================================================== */
+.section-1 {
+	margin: 0 0 50px 0;
+}
+.border {
+	font-size:30px ;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	background: linear-gradient(to right, #C8AFDD 36%,#A78E92 50%,#057BC8 87%);
+	color: rgb(244, 244, 250);
+	padding: 10px;
+
+}
+.properties {
+	font-weight: 700;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 10px 0;
+	opacity: 0.5;
+}
+.one {
+	border-top: 1px solid #000;
+	border-left: #52f108 dotted 3px;
+	border-right: greenyellow double 5px;
+	border-bottom: red dashed 2px;
+	padding: 15px;
+	margin: 0 0 20px 0;
+	box-shadow: inset 2px 5px 4px #FFBF00 ;
+}
+.two {
+	outline: #73836c solid 5px;
+	padding: 10px;
+	margin: 0 0 10px 0;
+	box-shadow: 9px 8px 4px #A4C639;
+}
+.circle {
+	background-color: #f0ec20;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow:7px 7px 5.6px rgba(253, 2, 2, 0.425), 56px 56px 51px rgba(247, 59, 59, 0.11);
+	margin-bottom: 10px;
+}
+.circle-2 {
+	background: url(../img/freelancer.jpg);
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+	visibility: hidden;
+}
+.bg-iamge {
+	max-width: 700px;
+	max-height: 400px;
+	background: url("../img/freelancer.jpg") no-repeat 0 0 / 200px, 
+linear-gradient(55.95deg, rgba(255, 64, 58, 0.3) 0%, rgba(247, 94, 5, 0.3) 100%), 
+url("../img/freelancer.jpg") no-repeat right top / 800px;
+	color: #66572c;
+	padding: 30px;
+	text-decoration: underline grey;
+	overflow: scroll;
+}
+/* ======================================================== */
+
+.section-2 {
+	background-color: #fff;
+}
+.section-2 .container {
+	max-width: 648px;
+}
+.ecobazar {
+	font-family:"Poppins", sans-serif;
+	font-size: 14px;
+	color: #808080;
+	font-weight: 400;
+	padding: 10px 0;
+	
+}
+.text {
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+.text > p {
+	margin-bottom: 20px;
+}
+.items {
+	margin-bottom: 20px;
+}
+.item {
+}
+.list {
+	margin-bottom: 14px;
+}
+.link {
+	display: block;
+	background: url(../img/Check.svg) no-repeat 0 0 / 20px;
+	line-height: 1.4;
+	padding-left: 28px;
+}
+/* ----------------------------------------------------- */
+.section-3 {
+	font-family: "Montserrat", sans-serif;
+	background: #302C42;
+	padding: 25px 0;
+}
+.section-3 .container {
+	max-width: 1272px;
+}
+.info {
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #057BC8;
+	text-align: center;
+	vertical-align: top;
+	padding: 20px 0;
+}
+.hydra{
+	margin-bottom: 50px;
+}
+.pic {
+	display: inline-block;
+}
+.vr {
+	border-radius:43.08% 19.08% 43.08% 19.08%;
+	padding: 3px 10px;
+}
+.subject {
+	display: inline-block;
+	max-width: 630px;
+	padding-left: 108px;
+	vertical-align: top;	
+	line-height: normal;
+}
+.about {
+	padding-top: 60px;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.hydravr {
+	color: rgba(255, 255, 255, 0.95);
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 42px;
+}
+.description {
+	font-weight: 400;
+	margin-bottom: 28px;
+}
+.button {
+	display: inline-block;
+	font-size: 12px;
+	color: #343045;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 40px;
+	text-align: center;
+	display: inline-block;
+	min-width: 214px;
+	padding: 17px 0;
+	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+/* -------------------------------------------------------- */
+
+.contacts {
+	margin-right: -15px;
+	margin-left: -15px;
+	padding: 26px 0;
+	border-radius: 90px;
+	background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+	box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+	
+}
+.local .item {
+	display: inline-block;
+}
+
+.img {
+	display: inline-block;
+}
+.image-local{
+	padding-left: 39px;
+}
+.image-phone {
+	width: 59px;
+	height: 59px;
+	margin-right: 29px;
+}
+.image-mail {
+	width: 65px;
+	height: 65px;
+	margin-right: 23px;
+}
+.content {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 42.5px;
+}
+.title {
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.sub-title {
+	font-size: 14px;
+	font-weight: 400;
+}
+.decor {
+	display: inline-block;
+	height: 116.5px;
+	width: 1px;
+	background-color: rgba(192, 183, 232, 0.33);
+	vertical-align: middle;
+	margin-right: 47px;
+}
+.top{
+	font-size: 20px;
+	color: #8176AF;
+	text-shadow: #000 2px 2px 2px ;
+	padding: 5px 0;
+}
+.footer{
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1.82px;
+	text-align: center;
+	background: #302C42;
+	padding: 20px 0;
+}

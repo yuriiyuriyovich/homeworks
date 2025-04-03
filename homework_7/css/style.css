@@ -1,0 +1,358 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap");
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Gilroy", sans-serif;
+	background-color: #333;
+	color: #fff;
+	/*
+	background-image: url("../img/repeat.jpg");
+	background-repeat: repeat;
+	*/
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 1020px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.page {
+	padding: 30px;
+}
+/* ==========================header============================ */
+.header{
+	padding: 15px 10px;
+}
+.header  a {
+	display: inline-block;
+	color: #e1f108;
+	font-size: 20px;
+}
+.header :hover {
+	color: #84f051;
+	text-decoration: underline 3px;
+	text-decoration-color: #1d5a0a;
+}
+.header li:first-child :active{
+	color: hsl(0, 74%, 52%);
+}
+.header li:last-child:visited{
+	color: hsl(0, 27%, 29%);
+}
+.header li:nth-child(3) :focus {
+	outline: 1px solid greenyellow;
+}
+.header li:nth-child(2) :focus {
+	outline: 1px solid rgb(19, 16, 216);
+}
+.header li:not(:last-child){
+	margin-bottom: 20px;
+}
+.header ol{
+	counter-reset: list-counter;
+}
+.header ol li::before {
+	counter-increment: list-counter;
+	content: counter(list-counter)". ";
+	display: inline-block;
+	margin-right: 5px;
+	color: rgb(5, 170, 199);
+}
+
+/* ======================================================== */
+/* ----------- CSS-властивості оформлення блоків ---------- */
+/* ===========================section-1============================= */
+.section-1 {
+	font-family:"Montserrat", serif;
+	background-color: #1d5a0a;
+	margin-bottom: 20px;
+}
+.section-1 .container {
+	max-width: 900px;
+}
+.magic-pic {
+	text-align: center;
+	max-width: 700px;
+	margin: 0 auto;
+}
+.link {
+	color: #e1f108;
+	letter-spacing: 3px;
+	font-size: 35px;
+	font-weight: 700;
+	padding: 10px;
+}
+.link:hover{
+	text-decoration: underline rgb(250, 199, 105);
+	color: #f3ba1e;
+}
+.img {
+	display: none;
+}
+.picture {
+	border-radius: 10px;
+}
+.magic-pic:hover .img{
+	display: block;
+}
+/* ==========================section-2=============================== */
+.section-2 {
+	font-family:"Inter", serif;
+	background-color: #412672;
+}
+.section-2 .container {
+	max-width: 1201px;
+	font-size: 0;
+}
+.content {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 61px 0 101px 0;
+}
+.title {
+	max-width: 505px;
+	color: #FFF;
+	font-size: 38px;
+	margin-bottom: 31px;
+}
+.socials .card:not(:last-child) {
+	margin:0 20px 20px 0;
+}
+.card {
+	display: inline-block;
+	width: 387px;
+	text-align: left;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+}
+.card :not(:last-child){
+	margin-bottom: 16px;
+}
+.card:hover{
+	background: #FFBE48;
+	box-shadow: 0px 384px 108px 0px rgba(0, 0, 0, 0.00), 0px 246px 98px 0px rgba(0, 0, 0, 0.01), 0px 138px 83px 0px rgba(0, 0, 0, 0.05), 0px 62px 62px 0px rgba(0, 0, 0, 0.09), 0px 15px 34px 0px rgba(0, 0, 0, 0.10);
+}
+.picture-img{
+	width: 347px;
+	height: 266px;
+}
+.img-picture{
+	width: 100%;
+}
+.subtitle {
+	color: #000;
+	font-size: 22px;
+	font-weight: 600;
+}
+.text {
+	color: #4F4F4F;
+	font-size: 15px;
+	line-height: 19px;
+	max-height: 76px;
+	padding-bottom: 38px;
+	overflow: hidden;
+}
+.link-red {
+	color:#FE3F3F;
+	font-size: 15px;
+	line-height: 19px;
+}
+.link-red a:hover{
+	color: #FFF;
+	text-decoration: underline 1px white;
+}
+/* ===========================section-3==================================== */
+.section-3 {
+	background-color: #fff;
+}
+.california {
+	padding: 153px 0 137px 0;
+}
+
+.Faculty {
+	max-width: 518px;
+	min-height: 358px;
+}
+.Faculty > :not(:last-child) {
+	margin-bottom: 20px;
+}
+.info {
+	color: #412672;
+	font-size: 34px;
+	margin-bottom: 20px; 
+}
+.info span{
+	font-weight: 700;
+}
+.info-text {
+	color:#412672;
+	font-size: 22px;
+	margin-bottom: 20px; 
+}
+.item {
+	display: block;
+	color:#4F4F4F;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.item::before{
+	background: url(../img/frame.svg) ;
+	content: '';
+	width: 29px;
+	height: 29px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+
+.item:not(:last-child){
+	margin-bottom: 15px;
+}
+/* ============================section-4=================================== */
+.game{
+	font-size: 50px;
+	color: #3015a7;
+	text-shadow: 2px 2px 2px blueviolet;
+	text-align: center;
+	padding: 30px 0;
+	background-color: #b49be4;
+}
+.games *:not(:first-child){
+	visibility: hidden;
+	display: inline-block;
+	opacity: 0;
+}
+.games [class*="block-"]:hover,
+.games [class*="block-"]:hover + [class*="block-"] {
+    /* background-color: #48f513; */
+    transition: all 0.8s ease 0s;
+    visibility: visible;
+    color: #beb8b8;
+	 text-align: center;
+    opacity: 1;
+}
+.block-1 {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 50px;
+	padding: 10px;
+	background-color: #1d5a0a;
+	border-radius: 10px;
+}
+
+.block-2 {
+	display: inline-block;
+	height: 15px;
+	width: 175px;
+	margin-left: -5px;
+	background:#302C42;
+}
+
+.block-3 {
+	display: inline-block;
+	color: #84f051;
+	width: 150px;
+	height: 20px;
+	margin-left: -5px;
+	background:#3015a7;
+}
+.block-4 {
+	display: inline-block;
+	color: #51e5f0;
+	width: 150px;
+	height: 15px;
+	margin-left: -5px;
+	background:#9e268a;
+}
+.block-5 {
+	display: inline-block;
+	color: #42787c;
+	width: 90px;
+	height: 15px;
+	margin-left: -15px;
+	background:#d62971;
+} 
+.block-6 {
+	height: 100px;
+	width: 15px;
+	margin-left: -5px;
+	margin-top: -10px;
+	background:#937eec;
+}
+.block-7 {
+	height: 20px;
+	width: 120px;
+	vertical-align:bottom;
+	margin-left: -20px;
+	background:#0ca726;
+}
+.block-8 {
+	vertical-align: top;
+	height: 130px;
+	width: 20px;
+	margin-left: -5px;
+	background:#d8af55;
+}
+.block-9 {
+	vertical-align: top;
+	width: 100px;
+	height: 15px;
+	margin-left: -5px;
+	background:#c1fa58;
+}
+.block-10 {
+	font-size: 20px;
+	padding: 20px;
+	font-weight: 700;
+	color: #000;
+	text-shadow: 2px 2px 2px #fff;
+	border-radius: 10px;
+	margin-left: -15px;
+	background-color: #0ca726;
+}
+
+/* ============================footer====================================== */
+.top{
+	font-size: 20px;
+	color: #8176AF;
+	text-shadow: #000 2px 2px 2px ;
+	padding: 5px 0;
+}
+.top:hover{
+	color: #fff;
+	text-decoration: underline 2px;
+}
+.footer{
+	font-family:"Montserrat", serif;
+	font-size: 74px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1.82px;
+	text-align: center;
+	background: #302C42;
+	padding: 20px 0;
+}
+.footer:hover{
+	letter-spacing: 15px;
+	color: #1d5a0a;
+	background: url(../img/freelancer.jpg) top left / 20px ;
+	overflow: hidden;
+
+}

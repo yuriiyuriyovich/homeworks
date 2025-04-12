@@ -1,0 +1,208 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Основні стилі */
+body {
+	font-family: "Gilroy", sans-serif;
+	background: url(../img/images/pexels-pixabay.jpg);
+	color: #fff;
+	/*
+	background-image: url("../img/repeat.jpg");
+	background-repeat: repeat;
+	*/
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,103,1) 47%, rgba(0,212,255,1) 100%); */
+}
+
+.container {
+	max-width: 820px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.page {
+	padding: 30px;
+}
+/* ==========================header============================ */
+.header{
+	padding: 15px 10px;
+	width: auto;
+}
+
+.homework{
+	padding: 15px;
+	font-size: 70px;
+	color: #c4c1c1e1;
+	text-transform: uppercase;
+	text-shadow: 4px 4px 1px #000;
+	text-align: center;
+	border-radius: 5px;
+}
+.homework:hover {
+
+	color: azure;
+	text-shadow: 1px 1px 5px #fff;
+}
+/* ======================================================== */
+/* ----------- CSS-властивості оформлення блоків ---------- */
+/* ===========================section-1============================= */
+.section-1 {
+}
+.container {
+}
+.icons {
+	background-color: #0e313688;
+}
+a:hover {
+	color: #91a08a;
+	text-decoration: underline rgba(79, 82, 85, 0.719);
+}
+a {
+	vertical-align: top;
+	font-size: 35px;
+	
+}
+
+.item-icon-1::before {
+	background: url(../img/vectors/arowb.svg) 10px 0px / 50px no-repeat;
+	content: '';
+	width: 88px;
+	height: 88px;
+		
+}
+.item-icon-2::before {
+	background: url(../img/vectors/arowr.svg) 15px 0px / 31px no-repeat;
+	width: 88px;
+	height: 88px;
+	content: '';
+
+}
+.item-icon-3::before {
+	background: url(../img/vectors/Group215.svg) 10px 0px / 50px no-repeat;
+	width: 88px;
+	height: 88px;
+	content: '';
+
+	
+}
+.item-icon-4::before {
+	background: url(../img/opti/svgoptimizer/plus.svg)10px 0px / 50px no-repeat;
+	width: 88px;
+	height: 88px;
+	content: '';
+
+}
+/* .item-icon-1:hover{
+	background-color: #172b2e;
+}
+
+.link {
+}
+.item-icon-2:hover {
+	background-color: #48adbd;
+}
+.item-icon-3:hover {
+	background-color: #477279;
+}
+.item-icon-4:hover {
+	background-color: #2e9cad;
+} */
+.icon :not(:last-child) {
+	margin-bottom: 20px;
+}
+.icon li{
+	padding: 20px;
+	border-radius: 20px;
+	text-align: center;
+} 
+/* ==========================section-2=============================== */
+.section-2 a {
+	margin-left: 25px;
+}
+.container {
+}
+.list {
+	color: #a7e79e;
+	padding: 50px 20px ;
+	background-color: #7e807d80;
+	text-align: center;
+	border-radius: 20px;
+}
+.list :not(:last-child){
+	margin-bottom: 20px;
+}
+.item-content {
+}
+
+/* ===========================section-3==================================== */
+.section-3 {
+}
+.container {
+}
+.content-ras {
+	color: #ff0000;
+	background-color: #38252696;
+	text-align: center;
+	padding: 50px 20px;
+	border-radius: 20px;
+}
+.content-ras :not(:last-child){
+	margin-bottom: 20px;
+}
+.content-ras-1 {
+}
+.text {
+	padding: 10px;
+	font-size: 25px;
+}
+.content-ras-1 img {
+	border-radius: 10px;
+}
+.content-ras-2 img {
+	border-radius: 10px;
+}
+.content-ras-3 img {
+	border-radius: 27.32% 0;
+}
+/* ============================section-4=================================== */
+
+/* ============================footer====================================== */
+.top{
+	font-size: 20px;
+	color: #6df3dd;
+	text-shadow: #000 2px 2px 2px ;
+	padding: 5px 0;
+}
+.top:hover{
+	color: #fff;
+	text-decoration: underline 2px;
+}
+.footer{
+	font-size: 74px;
+	font-weight: 700;
+	color: #fff;
+	letter-spacing: 1.82px;
+	text-align: center;
+	/* background: #302C42; */
+	padding: 20px 0;
+}
+.footer:hover{
+	font-size: 85px;
+	letter-spacing: 15px;
+	text-decoration: underline #165a01;
+	text-shadow: 4px 5px 2px #158799;
+	color: #87c036;
+	background: url(../img/freelancer.jpg) top left / 20px ;
+	overflow: hidden;
+
+}

@@ -1,0 +1,292 @@
+/* Підключення фрифтів */
+
+/* Google Fonts (Plugin) */
+/* @import url("https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Flow%20Circular:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* Локальне підключення шрифтів */
+@import url("fonts.css");
+
+/* Скидання стилів */
+@import url("reset.css");
+
+/* Компоненти */
+@import url("button.css");
+/* .... */
+
+/* Основні стилі */
+body {
+	font-family: "Gilroy", sans-serif;
+	background-color: #333;
+	color: #fff;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+[class*="__container"] {
+	max-width: 1278px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.page {
+	padding: 30px;
+}
+
+/* --------------------------Cra----------------------------------- */
+
+.car {
+
+	
+}
+.car__decoration {
+		background: linear-gradient(to bottom, #0d1b4c, #3a4f8a, #7b6cae, #f7a1a1, #fcb66f, #ffd27f);
+		background-size: 100% 100%;
+		height: 300px;
+}
+.car__houses {
+	
+}
+.car__gazon {
+	width: 100%;
+	height: 250px;
+	background-color: green;
+	position: relative;
+	top: -250px;
+}
+.car__house {
+	display: inline-block;
+	position: relative;
+	height: 555px;
+	width: 300px;
+	background-color: yellow;
+	margin:  0 150px 0 150px ;
+	z-index: 3;
+}
+.car__windows {
+	display: inline-block;
+	position: relative;
+	left: 25px;
+	margin: 20px;
+	height: 80px;
+	width: 80px;
+	background: linear-gradient(358deg,
+	 rgba(94, 180, 214, 1) 0%,
+	 rgba(52, 160, 237, 1) 100%,
+	 rgba(144, 188, 212, 1) 100%);
+}
+.car__road {
+	position: absolute;
+	top: 555px;
+	height: 350px;
+	background: black;
+	width: 100%;
+	overflow: clip;
+	border-top: 15px #fff dashed;
+	border-bottom: 15px #fff dashed;
+}
+.car__line {
+	display: inline-block;
+	position: relative;
+	top: 130px;
+	left: -10px;
+	height: 25px;
+	width: 300px;
+	background: #fff;
+	margin:0 35px 0 35px;
+}
+
+.car__bus {
+	border-radius: 25% 25% 50px 20px;
+	z-index: 5;
+	background-color:#ffffff;
+	width: 650px;
+	height: 320px;
+	position: relative;
+	bottom: 300px;
+	left: 350px
+	
+}
+
+.car__bus{
+	animation-name: bus;
+	animation-duration: 15s ;
+	transition-timing-function: linear;
+	animation-fill-mode:both ;
+	animation-iteration-count: infinite;
+	transition-delay: 1s;
+}
+@keyframes bus{
+	0%{
+
+left: -40%;
+	}
+100%{
+	left: 110%;
+}
+}
+.car__stop {
+	height: 70px;
+	right: 0px;
+	width: 30px;
+	background-color: rgb(119, 5, 5);
+	border-radius: 45% 0 0 0;
+	position: relative;
+	bottom: 290px;
+	border: 2px solid #333;
+}
+.car__light {
+	height: 60px;
+	width: 40px;
+	border-radius: 30px 40% 40% 30px;
+	background-color: rgb(133, 131, 131);
+	position: relative;
+	bottom: 350px;
+	left: 640px;
+	border-right: 10px solid rgb(124, 124, 241);
+}
+
+
+
+.car__back {
+	height: 99px;
+	width: 148px;
+	border: 2px solid #333;
+	border-radius: 65% 0 0 0px;
+	position: relative;
+	left: 5px;
+	top: 15px;
+	background-color: rgb(127, 127, 228);
+}
+
+.car__front {
+	height: 100px;
+	width: 150px;
+	border: 2px solid #333;
+	border-radius: 0  65% 0 0;
+	position: relative;
+	left: 500px;
+	top: -85px;
+	background-color: rgb(127, 127, 228);
+	animation-name: down;
+}
+.car__front img{
+	position: relative;
+	top: 0px;
+	height: 96px;
+	width: 110px;
+	border-radius: 35px 0px 0px 0px;
+	transform: rotateY(180deg);
+	backface-visibility: visible;
+}
+.car__box {
+	width: 150px;
+	height: 100px;
+	position: relative;
+	top: 98px;
+	left: -10px;
+	background-color: #ffffff;
+	
+}
+.car__side {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border: 2px solid #333;
+	position: relative;
+	left: 195px;
+	top: -185px;
+	margin:0 18px;
+	background-color: rgb(127, 127, 228);
+}
+.car__name p {
+	font-family: "fantasy";
+	font-weight: 900;
+	position: relative;
+	text-decoration: underline rgb(116, 245, 56);
+	top: -150px;
+	left: 80px;
+	font-size: 70px;
+	color: #0a21ec;
+
+}
+.car__wheels {
+	display: inline-block;
+	margin-right: 120px;
+	height: 100px;
+	width: 100px;
+	background-color: rgb(3, 3, 3);
+	position: relative;
+	top: -100px;
+	z-index: 8;
+	border-radius: 50%;
+	border: dashed 10px rgb(136, 136, 136);
+	margin-left: 100px;
+	animation-name: wh;
+	
+}
+.car__wheels{
+	animation: wh 3s linear infinite normal both ;
+}
+@keyframes wh {
+	0%{
+		transform: rotate(0deg)
+	}
+	100%{
+		transform: rotate(360deg)
+	}
+}
+.car__wheels {
+
+}
+.car__wheel {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background-color: #fff;
+	position: relative;
+	top: 25px;
+	left: 25px;
+
+}
+.car__bamper-1 {
+	height: 30px;
+	width: 40px;
+	background-color: rgb(59, 59, 59);
+	position: relative;
+	bottom: 320px;
+	left: -30px;
+}
+.car__bamper-2 {
+	height: 30px;
+	width: 50px;
+	background-color: rgb(59, 59, 59);
+	position: relative;
+	bottom: 350px;
+	left: 620px;
+}
+.car__gas {
+	height: 5px;
+	width: 20px;
+	background-color: rgb(168, 165, 165);
+	position: relative;
+	bottom: 340px;
+	left: 0px;
+	
+}
+
+.car__gases {
+	height: 25px;
+	width: 40px;
+	background-color: rgb(145, 142, 142);
+	position: relative;
+	bottom: 10px;
+	left: 10px;
+	border-radius: 10px;
+	
+}

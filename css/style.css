@@ -38,480 +38,201 @@ body {
 	padding: 30px;
 }
 
-/* --------------------------hydra----------------------------------- */
+/* --------------------------Cra----------------------------------- */
 
-.hydra {
-	padding: 25px 0;
-	font-family: 'Montserrat';
-	background: #302C42;
-}
+.car {
 
-.hydra__content {
-	margin-bottom: 70px;
-}
-.hydra__pic {
-	display: inline-block;
-	margin-right: 80px;
 	
 }
-.hydra__image {
-	border-radius: 44.08% 20.08% ;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+.car__decoration {
+		background: linear-gradient(to bottom, #0d1b4c, #3a4f8a, #7b6cae, #f7a1a1, #fcb66f, #ffd27f);
+		background-size: 100% 100%;
+		height: 300px;
 }
-.hydra__about {
+.car__houses {
+	
+}
+.car__gazon {
+	width: 100%;
+	height: 250px;
+	background-color: green;
+	position: relative;
+	top: -250px;
+}
+.car__house {
 	display: inline-block;
-	color: #fff;
-	max-width: 630px;
-	vertical-align: middle;
+	position: relative;
+	height: 555px;
+	width: 300px;
+	background-color: yellow;
+	margin:  0 150px 0 150px ;
+	z-index: 3;
 }
-.hydra__title {
-	font-size: 36px;
-	font-weight: 700;
-	margin-bottom: 5px;
-}
-.hydra__subtitle {
-	color: rgba(255, 255, 255, 0.95);
-	font-size: 36px;
-	font-weight: 300;
-	margin-bottom: 42px;
-}
-.hydra__text {
-	font-weight: 400;
-	margin-bottom: 28px;
-}
-.hydra__bottom {
+.car__windows {
 	display: inline-block;
-	padding-top: 17px;
-	padding-bottom: 17px;
-	padding-left: 39px;
-	padding-right: 47px;
-	color: #343045;
-	font-size: 12px;
-	font-weight: 700;
-	border-radius: 40px;
-	background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+	position: relative;
+	left: 25px;
+	margin: 20px;
+	height: 80px;
+	width: 80px;
+	background: linear-gradient(358deg,
+	 rgba(94, 180, 214, 1) 0%,
+	 rgba(52, 160, 237, 1) 100%,
+	 rgba(144, 188, 212, 1) 100%);
 }
-
-/* -----------------------------hydra---------------------------------------- */
-.hydra__contact {
-	padding: 25px 0px;
-	border-radius: 90px;
-	background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
-	box-shadow: 0 4px 4px 0 rgba(192, 183, 232, 0.01);
+.car__road {
+	position: absolute;
+	top: 555px;
+	height: 350px;
+	background: black;
+	width: 100%;
+	overflow: clip;
+	border-top: 15px #fff dashed;
+	border-bottom: 15px #fff dashed;
 }
-
-.local {
+.car__line {
 	display: inline-block;
-	padding-left: 49px;
-	padding-right: 49px;
-}
-.local__link {
-	max-width: 70px;
-	max-height: 70px;
-}
-.local__info {
-	display: inline-block;
-	vertical-align: middle;
-}
-.local__title {
-	display: inline-block;
-	font-size: 24px;
-	font-weight: 700;
-	margin-bottom: 10px;
-}
-.local__subtitle {
-	font-size: 14px;
-	font-weight: 400;
+	position: relative;
+	top: 130px;
+	left: -10px;
+	height: 25px;
+	width: 300px;
+	background: #fff;
+	margin:0 35px 0 35px;
 }
 
-/* ----------------------------Advantages------------------------------ */
-.advantages {
-	padding: 50px 75px 50px 109px;
-	background: #231F8B;
+.car__bus {
+border-radius: 25% 25% 50px 20px;
+z-index: 5;
+background-color:#ffc31d;
+width: 650px;
+height: 320px;
+position: relative;
+bottom: 300px;
+left: 350px
+
 }
-.advantages__container {
-	max-width: 1227px;
-	
+.car__stop {
+	height: 70px;
+	right: 0px;
+	width: 30px;
+	background-color: rgb(119, 5, 5);
+	border-radius: 45% 0 0 0;
+	position: relative;
+	bottom: 290px;
+	border: 2px solid #333;
 }
-.advantages__content {
-	
-	
-	margin-bottom: 70px;
+.car__light {
+	height: 60px;
+	width: 40px;
+	border-radius: 30px 40% 40% 30px;
+	background-color: rgb(133, 131, 131);
+	position: relative;
+	bottom: 350px;
+	left: 640px;
+	border-right: 10px solid rgb(124, 124, 241);
 }
-.advantages__title {
-	color: #5A54F2;
-	font-family: 'Montserrat';
-	font-size: 14px;
-	font-weight: 700;
-	line-height: 171.429%;
-	letter-spacing: 0.2px;
-	margin-bottom: 10px;
+
+
+
+.car__back {
+	height: 100px;
+	width: 150px;
+	border: 2px solid #333;
+	border-radius: 65% 0 0 0px;
+	position: relative;
+	left: 5px;
+	top: 15px;
+	background-color: rgb(127, 127, 228);
 }
-.advantages__subtitle {
-	color: #FFF;
-	font-family: "Circular";
-	font-size: 36px;
-	font-weight: 700;
-	margin-bottom: 10px;
+.car__front {
+	height: 100px;
+	width: 150px;
+	border: 2px solid #333;
+	border-radius: 0  65% 0 0;
+	position: relative;
+	left: 500px;
+	top: -85px;
+	background-color: rgb(127, 127, 228);
 }
-.advantages__text {
-	color: #FFF;
-	font-family: "Circular";
-	font-size: 14px;
-	font-weight: 450;
-	line-height: 20px; /* 142.857% */
-	letter-spacing: 0.2px;
-	
+.car__side {
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	border: 2px solid #333;
+	position: relative;
+	left: 195px;
+	top: -185px;
+	margin:0 18px;
+	background-color: rgb(127, 127, 228);
 }
-.advantages__card {
-	
+.car__name p {
+	font-family: "fantasy";
+	font-weight: 900;
+	position: relative;
+	text-decoration: underline rgb(116, 245, 56);
+	top: -150px;
+	left: 80px;
+	font-size: 70px;
+	color: #0a21ec;
+
 }
-.advantages__items {
+.car__wheels {
+	display: inline-block;
+	margin-right: 120px;
+	height: 100px;
+	width: 100px;
+	background-color: rgb(3, 3, 3);
+	position: relative;
+	top: -100px;
+	z-index: 8;
+	border-radius: 50%;
+	border: dashed 10px rgb(136, 136, 136);
+	margin-left: 100px;
+}
+.car__wheel {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
 	background-color: #fff;
-	height: 288px;
-	width: 230px;
-	padding: 35px 40px;
-	display: inline-block;
-	box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
-	
-}
-.advantages__items:not(:last-child){
-	margin-right: 40px;
-	margin-bottom: 10px;
-}
-.advantages__item {
-	
-}
+	position: relative;
+	top: 25px;
+	left: 25px;
 
-
-.advantages__link {
-	text-align: left;
-	margin-bottom: 20px;
 }
-.avdantages__title {
-	color: #252B42;
-	font-family: "Circular";
-	font-size: 16px;
-	font-weight: 700;
-	line-height: 24px; /* 150% */
-	letter-spacing: 0.1px;
-	margin-bottom: 20px;
+.car__bamper-1 {
+	height: 30px;
+	width: 40px;
+	background-color: rgb(59, 59, 59);
+	position: relative;
+	bottom: 320px;
+	left: -30px;
 }
-.avdantages__line {
+.car__bamper-2 {
+	height: 30px;
 	width: 50px;
-	height: 2px;
-	background-color: #E74040;
-	margin-bottom: 20px;
-}
-.advantages__texts {
-	font-family: "Montserrat";
-	font-size: 14px;
-	font-weight: 400;
-	ine-height: 20px; /* 142.857% */
-	letter-spacing: 0.2px;
-	color: #737373;
-}
-.itemsadvantages {
-	background: #5A54F2;
-}
-.whitetexts{
-	color: #fff;
-}
-.titlewhite{
-	color: #fff;
-}
-/* ---------------------------------------ecobazar------------------------------- */
-.ecobazar {
-	color:  #808080;
-	background-color: #ffe;
-}
-.ecobazar__container {
-	max-width: 635px;
-	
-}
-.ecobazar__content {
-}
-.ecobazar__text {
-	
-	font-family: "Poppins";
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 150%;
-	margin-bottom: 20px;
-}
-.ecobazar__list {
-	
-}
-.ecobazar__items {
-}
-.ecobazar__item {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 140%;
-	margin-bottom: 20px;
-}
-.ecobazar__link {
-	padding-left: 30px;
-	background: url("../img/ecobazar/Check.svg") 0 0  no-repeat;
-}
-.ecobazar__texts {
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 140%;
-}
-.propusk {
-	margin-top: 20px;
-}
-/* =============================meet=============================== */
-.meet {
-	background-color: #412672;
-}
-.meet__container {
-	max-width: 1221px;
-	
-}
-.meet__our {
-	
-	padding: 50px 0;
-}
-.meet__title {
-	margin-bottom: 31px;
-	font-size: 38px;
-	font-weight: 400;
-}
-.meet__title p {
-	font-weight: 700;
-}
-.card{
-	font-size: 0;
-}
-
-.card__content {
-	display: inline-block;
-	height: 476px;
-	max-width: 383px;
-	padding: 20px;
-	vertical-align: top;
-	background: #FFF;
-	box-shadow: 0 384px 108px 0
-	 rgba(0, 0, 0, 0.00), 0 246px 98px 0 
-	 rgba(0, 0, 0, 0.01), 0 138px 83px 0 
-	 rgba(0, 0, 0, 0.05), 0 62px 62px 0 
-	 rgba(0, 0, 0, 0.09), 0 15px 34px 0 
-	 rgba(0, 0, 0, 0.10);
-}
-.card__content:hover{
-	background: #FFBE48;
-}
-.card__content:not(:last-child){
-	margin-bottom: 16px;
-	margin-right: 20px;
-}
-.card :not(:last-child){
-	
-	margin-bottom: 20px;
-}
-.card__title {
-	font-size: 22px;
-	font-weight: 600;
-	color: #211E2E;
-}
-.card__title:hover {
-	text-decoration: underline blue;
-}
-.card__text {
-	font-size: 15px;
-	font-weight: 400;
-	line-height: 19px;
-	color: #211E2E;
-}
-.card__text:hover {
-	text-decoration: underline blue;
-}
-/* =================================avalibl===================== */
-.Available {
-	background: #FFF;
-	color: #412672;
-
-}
-.Available :not(:last-child){
-	margin-bottom: 20px;
-}
-.Available__container{
-	max-width: 1221px;
-}
-.available__content{
-	max-width: 518px;
-}
-.Available__title {
-	font-size: 34px;
-	font-weight: 700;
-}
-.Available__text {
-	font-size: 22px;
-	font-weight: 400;
-}
-.Available__lists {
-}
-.list {
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 51px;
-}
-.link{
-	vertical-align: top;
-	
-}
-.link::before{
-	content: '';
-	background: url("../img/meet/Frame.svg") 0 0px ;
-	width: 29px;
-	height: 29px;
-	top: 0px;
-	left: 11px;
-	vertical-align: middle;
-}
-/* ==========================lightbox================================== */
-
-.lightbox {
-	font-family: "Roboto";
-	background-color: #5A54F2;
-	color: #FFF;
-	padding: 97px 0;
+	background-color: rgb(59, 59, 59);
 	position: relative;
+	bottom: 350px;
+	left: 620px;
 }
-.lightbox__container {
-	max-width: 1230px;
-}
-.lightbox__top{
-
-}
-.top::before {
-	background: url('/img/lightbox/Group1.svg') 0 0 no-repeat;
-	content: '';
-	height: 473px;
-	width: 214px;
-	z-index: 2;
-	position: absolute;
-	left: 245px;
-	top: 376px;
-}
-.top {
-	
-}
-.top__image {
-	position: absolute;
-	top: -41px;
-	left: 345px;
-	z-index: 5;
-}
-.top__image img {
-	z-index: 5;
-	border-radius: 20px;
-}
-.top__image::after{
-	background: url("/img/lightbox/Ellipse1.svg") 0 0 no-repeat;
-	content: "";
-	display: block;
-	height: 65px;
-	width: 65px;
+.car__gas {
+	height: 5px;
+	width: 20px;
+	background-color: rgb(168, 165, 165);
 	position: relative;
-	top: -390px;
-	 left: -100px;
-}
-
-.top__image::before{
-	background: url("/img/lightbox/Ellipse2.svg");
-	content: '';
-	height: 401px;
-	width: 401px;
-	position: absolute;
-	left: -70px;
-	bottom: -30px;
-	z-index: -1;
-}
-
-.top__body {
-		max-width: 506px;
-	position: absolute;
-	left: 845px;
-}
-
-.top__title {
-	font-size: 36px;
-	font-weight: 700;
-	margin-bottom: 10px;
-}
-.top__text {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 166%;
-	max-width: 480px;
-	margin-bottom: 20px;
-}
-.top__button:hover{
-	background: #c24807;
-	text-decoration: underline;
-}
-.top__button {
-	display: inline-block;
-	border-radius: 60px;
-	background: #F35B09;
-	text-align: center;
-	font-size: 18px;
-	font-weight: 500;
-	padding: 22px 26px;
-}
-.lightbox__bottom {
+	bottom: 340px;
+	left: 0px;
 	
 }
-.bottom {
 
-
-}
-.bottom__body {
-	position: absolute;
-	top: 562px;
-	left: 595px;
-	max-width: 602px;
-}
-.bottom__title {
-	font-size: 36px;
-	font-weight: 700;
-}
-.bottom__text {
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 166%;
-	margin-bottom: 10px;
-	max-width: 480px;
-}
-.bottom__button {
-	display: inline-block;
-	border-radius: 60px;
-	background: #F35B09;
-	text-align: center;
-	font-size: 18px;
-	font-weight: 500;
-	padding: 22px 26px;
-	
-}
-.bottom__button:hover{
-	background: #bd4505;
-	text-decoration: underline;
-}
-.bottom__image img {
-	max-width: 430px;
-	max-height: 548px;
-	border-radius: 20px;
-	
-}
-.bottom__image {
+.car__gases {
+	height: 25px;
+	width: 40px;
+	background-color: rgb(145, 142, 142);
 	position: relative;
-	top: 430px;
-	left: 784px;
+	bottom: 10px;
+	left: 10px;
+	border-radius: 10px;
+	
 }
-
-
-
-
